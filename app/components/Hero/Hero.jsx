@@ -1,20 +1,17 @@
 "use client";
 
-import { Swiper } from 'swiper/react';
 import { merge } from 'lodash';
 import { slideTextContent } from './slideTextContent';
 import { Container } from '../Layout/Layout';
 import colors from '../../styles/colors';
+import { Wrapper, Slide, SlideImage, HeroWrapper, HeroContentWrapper, HeroContent, HeroTitle, HeroSubtitle, SwiperSlider } from "./Hero.style";
 
-// Import Swiper styles
+// Import Swiper styles and modules
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-import { Wrapper, Slide, SlideImage, HeroWrapper, HeroContentWrapper, HeroContent, HeroTitle, HeroSubtitle } from "./Hero.style";
 
 const Hero = () => {
   const images = require.context('../../../public/assets/slides', true);
@@ -25,7 +22,7 @@ const Hero = () => {
 
   return (
     <Wrapper>
-      <Swiper
+      <SwiperSlider
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -65,7 +62,7 @@ const Hero = () => {
 
           </Slide>
         ))}
-      </Swiper>
+      </SwiperSlider>
     </Wrapper >
   );
 };

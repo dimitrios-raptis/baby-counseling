@@ -3,14 +3,18 @@ import mediaQueries from '../../styles/mediaqueries';
 import space from '../../styles/space';
 
 export const ContainerWrapper = styled('div')({
-  maxWidth: '50rem',
+  maxWidth: '100%',
   marginRight: 'auto',
   marginLeft: 'auto',
   paddingRight: space.medium,
   paddingLeft: space.medium,
 
+  [mediaQueries.small]: {
+    maxWidth: '55rem',
+  },
+
   [mediaQueries.medium]: {
-    maxWidth: '60rem',
+    maxWidth: '72rem',
   },
 
   [mediaQueries.large]: {
@@ -18,7 +22,7 @@ export const ContainerWrapper = styled('div')({
   },
 
   [mediaQueries.xlarge]: {
-    maxWidth: '100rem',
+    maxWidth: '120rem',
   },
 });
 

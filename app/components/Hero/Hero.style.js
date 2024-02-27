@@ -4,10 +4,16 @@ import colors from '../../styles/colors';
 import { SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import space from '../../styles/space';
+import { Swiper } from 'swiper/react';
+
+export const SwiperSlider = styled(Swiper)({
+  width: '100%',
+  height: '44rem',
+});
 
 export const Wrapper = styled('div')({
   width: '100%',
-  height: '500px',
+  height: '44rem',
 });
 
 export const Slide = styled(SwiperSlide)({

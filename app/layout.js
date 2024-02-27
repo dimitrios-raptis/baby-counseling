@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Nav from '../app/components/Nav/Nav';
 
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
@@ -17,8 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <body className={inter.className}>
+        <Nav />
         <main>{children}</main>
       </body>
     </html>

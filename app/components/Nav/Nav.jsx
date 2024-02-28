@@ -1,7 +1,6 @@
 "use client";
 
-import { title } from "process";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavWrapper, NavContent, Logo, Menu, MenuList, MenuListItem, MenuLink, BurgerBtn, BurgerWrapper, MobileMenuWrapper, MobileMenuList, MobileMenuListItem, MobileMenuLink } from "./Nav.style";
 
 const Nav = () => {
@@ -13,9 +12,9 @@ const Nav = () => {
   };
 
   const menuList = [
-    { title: "Home" },
-    { title: "About" },
-    { title: "Team" },
+    { title: "Home", link: '#home' },
+    { title: "About", link: '#about' },
+    { title: "Team", link: '#team' },
   ];
 
   return (
@@ -31,7 +30,14 @@ const Nav = () => {
             <MenuList>
               {menuList.map((item, index) => (
                 <MenuListItem key={index}>
-                  <MenuLink index={index} setActiveIndex={setActiveIndex} className={activeIndex === index ? "active" : "unactive"} href='#skata'>{item.title}</MenuLink>
+                  <MenuLink
+                    index={index}
+                    setActiveIndex={setActiveIndex}
+                    className={activeIndex === index ? "active" : "unactive"}
+                    href={item.link}
+                  >
+                    {item.title}
+                  </MenuLink>
                 </MenuListItem>
               ))}
             </MenuList>
@@ -42,7 +48,14 @@ const Nav = () => {
         <MobileMenuList>
           {menuList.map((item, index) => (
             <MobileMenuListItem key={index}>
-              <MobileMenuLink index={index} setActiveIndex={setActiveIndex} className={activeIndex === index ? "active" : "unactive"} href='#skata'>{item.title}</MobileMenuLink>
+              <MobileMenuLink
+                index={index}
+                setActiveIndex={setActiveIndex}
+                className={activeIndex === index ? "active" : "unactive"}
+                href={item.link}
+              >
+                {item.link}
+              </MobileMenuLink>
             </MobileMenuListItem>
           ))}
         </MobileMenuList>

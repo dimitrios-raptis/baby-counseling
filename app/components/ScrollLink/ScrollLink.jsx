@@ -7,7 +7,10 @@ const ScrollLink = ({ children, index, setActiveIndex, ...props }) => {
   const handleScroll = (e) => {
     e.preventDefault();
 
-    setActiveIndex(index);
+    if (index && setActiveIndex) {
+      setActiveIndex(index);
+    }
+
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
 

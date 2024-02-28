@@ -8,17 +8,17 @@ import { Swiper } from 'swiper/react';
 
 export const SwiperSlider = styled(Swiper)({
   width: '100%',
-  height: '44rem',
+  height: '39rem',
 });
 
 export const Wrapper = styled('div')({
   width: '100%',
-  height: '44rem',
+  height: '39rem',
 });
 
 export const Slide = styled(SwiperSlide)({
   width: '100%',
-  height: '500px',
+  height: '50rem',
 });
 
 export const HeroWrapper = styled('div')({

@@ -21,10 +21,14 @@ export const NavContent = styled('div')({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: `${space.large} 0`,
+  padding: `${space.xsmall} 0`,
   maxWidth: '120rem',
   marginLeft: 'auto',
   marginRight: 'auto',
+
+  [mediaQueries.large]: {
+    padding: `${space.large} 0`,
+  },
 });
 
 export const BurgerWrapper = styled('div')({
@@ -35,6 +39,11 @@ export const BurgerWrapper = styled('div')({
 
 export const Logo = styled(Image)({
   borderRadius: '50%',
+
+  [mediaQueries.untilLarge]: {
+    width: `15rem`,
+    height: `5rem`,
+  },
 });
 
 export const BurgerBtn = styled('button')({
@@ -155,6 +164,7 @@ export const MenuLink = styled(ScrollLink)({
   },
 });
 
+
 // Mobile Menu
 export const MobileMenuWrapper = styled('div')({
   position: 'fixed',
@@ -185,7 +195,7 @@ export const MobileMenuWrapper = styled('div')({
 
 export const MobileMenuList = styled('ul')({
   display: 'block',
-  margin: '15px 0',
+  margin: `${space.base} 0`,
   height: 'auto',
   textAlign: 'left',
 });
@@ -200,7 +210,7 @@ export const MobileMenuLink = styled(ScrollLink)({
   color: colors.offblack,
   background: colors.white,
   display: 'block',
-  padding: '9px 56px 9px 18px',
+  padding: `${space.small} ${space.xxlarge} ${space.small} ${space.base}`,
 
   [mediaQueries.large]: {
     marginLeft: space.xlarge,

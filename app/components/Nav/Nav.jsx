@@ -54,7 +54,7 @@ const Nav = () => {
                 className={activeIndex === index ? "active" : "unactive"}
                 href={item.link}
               >
-                {item.link}
+                {item.title}
               </MobileMenuLink>
             </MobileMenuListItem>
           ))}

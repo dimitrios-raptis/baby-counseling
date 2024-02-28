@@ -4,7 +4,6 @@ import colors from '../../styles/colors';
 import space from '../../styles/space';
 import ScrollLink from '../ScrollLink/ScrollLink';
 
-
 export const CallToActionWrapper = styled('section')({
   backgroundColor: colors.tertiary,
   padding: `${space.large} 0`,

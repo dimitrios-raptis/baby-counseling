@@ -46,7 +46,7 @@ const Hero = () => {
         {slideContent.map((slide, index) => (
           <Slide key={index}>
             <HeroWrapper>
-              <SlideImage src={slide.default.src} alt="Slideshow image 1" fill priority
+              <SlideImage src={slide.default.src} alt="Slideshow image" fill priority
               />
               <Container>
                 <HeroContentWrapper>

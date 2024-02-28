@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import mediaQueries from '../../styles/mediaqueries';
+import mediaQueries from '../../styles/mediaQueries';
 import colors from '../../styles/colors';
 import space from '../../styles/space';
 import Image from 'next/image';

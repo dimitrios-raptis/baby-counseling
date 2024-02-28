@@ -4,14 +4,12 @@ import { merge } from 'lodash';
 import { faFacebookF, faTwitter, faSquareInstagram, faFacebookMessenger, faLinkedinIn, } from '@fortawesome/free-brands-svg-icons';
 
 const Team = () => {
-
   const images = require.context('../../../public/assets/team', true);
 
   const teamImagesList = images.keys().map(image => images(image));
 
   const teamContent = merge(teamImagesList, teamList);
 
-  console.log('teamContent', teamContent);
   return (
     <TeamWrapper id='team'>
       <TeamSectionTitle>

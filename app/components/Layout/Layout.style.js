@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import mediaQueries from '../../styles/mediaqueries';
+import mediaQueries from '../../styles/mediaQueries';
 import space from '../../styles/space';
 
 export const ContainerWrapper = styled('div')({

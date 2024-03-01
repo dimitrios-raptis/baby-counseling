@@ -12,7 +12,7 @@ const baseColors = {
 
 const colors = {
   ...baseColors,
-  primary: '#60cd96',
+  primary: '#ACD032',
   secondary: '#ffa726',
   tertiary: '#9d87c3',
   quartenary: '#69d2e7',

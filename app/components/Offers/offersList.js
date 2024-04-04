@@ -2,33 +2,33 @@ import { faShieldHeart, faPeopleGroup, faHandshake, faBaby, faPalette, faFaceSmi
 
 const offersList = [
   {
-    title: 'Tincidunt risus',
-    text: 'Pulvinar quis arcu. Sed feugiat faucibus leo, vitae pulvinar massa consectetur at. Vivamus ac urna justo. Integer lectus nulla, finibus vitae metus et.',
+    title: 'Parental Support',
+    text: 'Providing compassionate guidance and emotional support to parents as they navigate the journey of raising their little ones.',
     icon: faShieldHeart
   },
   {
-    title: 'Ut suscipit mat',
-    text: 'Imperdiet semper odio. Duis accumsan ante ac pulvinar tincidunt. Sed et tellus sit amet mi lobortis commodo. Vestibulum laoreet vehicula odio in molestie.',
+    title: 'Community Connection',
+    text: 'Join a vibrant community of parents sharing experiences, advice, and solidarity in the joys and challenges of parenthood.',
     icon: faPeopleGroup
   },
   {
-    title: 'Pellentesque pulvinar',
-    text: 'Ralesuada sit amet ut turpis. Pellentesque eu commodo velit. Vivamus in volutpat lacus, non malesuada ex. Morbi varius dapibus lectus.',
+    title: 'Collaborative Approach',
+    text: 'Working hand in hand with parents to develop personalized strategies and solutions for overcoming parenting hurdles and fostering healthy family dynamics.',
     icon: faHandshake
   },
   {
-    title: 'Loron, vitae',
-    text: 'Aliquam volutpat rutrum lacus in feugiat. Maecenas sapien metus, fermentum sed ligula sit amet, cursus semper mi. Nam ac erat lobortis, elementum tellus etol.',
+    title: 'Infant Development',
+    text: 'Understanding and nurturing the developmental milestones of your baby, ensuring they receive the care and stimulation they need to thrive.',
     icon: faBaby
   },
   {
-    title: 'Donec placerat',
-    text: 'Congue cestibulum accumsan augue commodo diam accumsan sodales. Cras dui mauris, fringilla eget mauris eu, finibus sollicitudin odio.',
+    title: 'Creative Parenting',
+    text: 'Embracing creativity and innovation in parenting techniques, encouraging parents to explore unique approaches that resonate with their child\'s personality and needs.',
     icon: faPalette
   },
   {
-    title: 'Fusce eleifend',
-    text: 'Vivamus dictum malesuada erat, eget malesuada felis tristique eu. Proin a vehicula lacus. Integer tincidunt purus ut imperdiet tristique. Duis non facilisis est.',
+    title: 'Joyful Parenting',
+    text: 'Cultivating a positive and joyful parenting experience, celebrating the special moments and milestones that make parenthood truly rewarding.',
     icon: faFaceSmile
   },
 ];

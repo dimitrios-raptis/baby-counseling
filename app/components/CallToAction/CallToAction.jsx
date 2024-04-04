@@ -4,7 +4,7 @@ const CallToAction = () => {
   return (
     <CallToActionWrapper>
       <CallToActionTitle>
-        &#x23;1 Vestibulum laoreet
+        Explore Parenthood
       </CallToActionTitle>
       <CallToActionLink href='#home'>
         Learn More

@@ -1,18 +1,18 @@
 export const slideTextContent = [
   {
-    title: "Curabitur tempor diam ac purus pretium",
-    subtitle: "Praesent auctor ipsum justo, viverra ornare nibh tempus sit ame",
+    title: "Welcome to Baby Counseling!",
+    subtitle: "Providing compassionate support and guidance for new parents navigating the joys and challenges of parenthood",
   },
   {
-    title: "Pullam sit amet justo vitae sapien malesuada",
-    subtitle: "Sed quis faucibus justo, sed tincidunt mauris. Nulla neque diam",
+    title: "Expert Advice for New Parents",
+    subtitle: "Gain insights from experienced counselors on bonding with your baby, managing sleep routines, and fostering healthy development",
   },
   {
-    title: "Aliquam sagittis neque risus, ut rutrum elit posuere",
-    subtitle: "Vivamus laoreet ipsum nec ipsum pulvinar consectetur. Class aptent taciti sociosqu ad litora",
+    title: "Building Strong Parent-Child Relationships",
+    subtitle: "Discover strategies for fostering secure attachment, enhancing communication, and nurturing the bond between you and your little one",
   },
   {
-    title: "Maecenas urna nisl, mattis nec lacinia quis",
-    subtitle: "Quisque viverra, lorem ac interdum tempor, justo nisi elementum lacus, ut molestie purus",
+    title: "Empowering Parents Every Step of the Way",
+    subtitle: "From overcoming parenting stress to celebrating milestones, our counseling services are here to empower you on your journey through parenthood",
   },
 ];

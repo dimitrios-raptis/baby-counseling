@@ -7,10 +7,10 @@ const Offers = () => {
     <OffersWrapper id='about'>
       <OffersIntroWrapper>
         <OffersTitle>
-          Tellus sit amet mi lobortis commodo vestibulum
+          Empowering parenthood: Your supportive hub
         </OffersTitle>
         <OffersIntro>
-          Rolutpat rutrum lacus in feugiat. Maecenas sapien metus, fermentum sed ligula sit amet, cursus semper mi. Nam ac erat lobortis, elementum tellus et, mollis tellus.
+          Discover a wealth of supportive services to elevate and enrich your experience through the challenges and joys of parenthood
         </OffersIntro>
       </OffersIntroWrapper>
       <OffersContainer>
